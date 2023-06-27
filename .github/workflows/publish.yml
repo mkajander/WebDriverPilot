@@ -31,9 +31,10 @@ jobs:
         with:
           dotnet-version: '6.0.x'
           source-url: https://api.nuget.org/v3/index.json
+        env:
+          NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Push
         env:
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
-          NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: dotnet nuget push out/*.nupkg --api-key $NUGET_KEY --source https://api.nuget.org/v3/index.json
