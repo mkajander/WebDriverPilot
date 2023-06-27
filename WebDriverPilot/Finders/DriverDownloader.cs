@@ -10,9 +10,9 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using WebDriverManager.Helpers;
+using WebDriverPilot.Helpers;
 
-namespace WebDriverManager.Finders
+namespace WebDriverPilot.Finders
 {
     public class DriverDownloader
     {

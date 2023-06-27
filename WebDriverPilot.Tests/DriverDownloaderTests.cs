@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using WebDriverManager.Finders;
-using WebDriverManager.Helpers;
 using Xunit;
 using Xunit.Abstractions;
 using FluentAssertions;
-namespace WebDriverManager.Tests
+using WebDriverPilot.Finders;
+using WebDriverPilot.Helpers;
+
+namespace WebDriverPilot.Tests
 {
     public class DriverDownloaderTests
     {

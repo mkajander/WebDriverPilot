@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace WebDriverManager.Helpers
+namespace WebDriverPilot.Helpers
 {
     public static class StringExtensions
     {

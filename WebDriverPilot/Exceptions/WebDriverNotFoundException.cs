@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WebDriverManager.Exceptions
+namespace WebDriverPilot.Exceptions
 {
     [Serializable]
     public class WebDriverFinderException : Exception

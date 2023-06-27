@@ -5,12 +5,12 @@
         <Version>0.1.0</Version>
         <Authors>mkajander</Authors>
         <Company>mkajander</Company>
-        <Product>WebDriverManager</Product>
+        <Product>WebDriverPilot</Product>
         <Description>Automatically downloads and manages Chrome and Edge webdrivers. Currently only supports Windows.</Description>
         <Copyright>Copyright 2023 mkajander</Copyright>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageProjectUrl>https://github.com/mkajander/WebDriverManager</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/mkajander/WebDriverManager</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/mkajander/WebDriverPilot</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/mkajander/WebDriverPilot</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>webdriver manager</PackageTags>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

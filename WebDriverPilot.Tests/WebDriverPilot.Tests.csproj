@@ -24,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\WebDriverManager\WebDriverManager.csproj" />
+      <ProjectReference Include="..\WebDriverPilot\WebDriverPilot.csproj" />
     </ItemGroup>
 
     <ItemGroup>

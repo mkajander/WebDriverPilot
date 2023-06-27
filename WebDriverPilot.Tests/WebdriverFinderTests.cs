@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging.Abstractions;
-using WebDriverManager.Finders;
+using WebDriverPilot.Finders;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace WebDriverManager.Tests
+namespace WebDriverPilot.Tests
 {
     public class WebdriverFinderTests
     {

@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverManager", "WebDriverManager\WebDriverManager.csproj", "{249CD2DE-EFBC-4426-AB75-F4C082A905C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverPilot", "WebDriverPilot\WebDriverPilot.csproj", "{249CD2DE-EFBC-4426-AB75-F4C082A905C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverManager.Tests", "WebDriverManager.Tests\WebDriverManager.Tests.csproj", "{554E2371-37F5-4C2A-B8D9-D65C0A946359}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverPilot.Tests", "WebDriverPilot.Tests\WebDriverPilot.Tests.csproj", "{554E2371-37F5-4C2A-B8D9-D65C0A946359}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{85DA2576-1A89-4334-B795-35E4F16183DD}"
 EndProject

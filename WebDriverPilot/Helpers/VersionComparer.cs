@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WebDriverManager.Helpers
+namespace WebDriverPilot.Helpers
 {
     public class VersionComparer : IComparer<string>
     {

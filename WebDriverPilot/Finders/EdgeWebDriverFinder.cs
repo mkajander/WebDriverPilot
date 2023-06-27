@@ -7,10 +7,10 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using WebDriverManager.Exceptions;
-using WebDriverManager.Helpers;
+using WebDriverPilot.Exceptions;
+using WebDriverPilot.Helpers;
 
-namespace WebDriverManager.Finders
+namespace WebDriverPilot.Finders
 {
     public interface IWebDriverFinder: IConfigure, IFindAvailableDrivers, IFindBrowserVersion
     {

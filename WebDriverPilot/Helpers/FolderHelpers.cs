@@ -7,7 +7,7 @@ using System.IO.Compression;
 using System.Linq;
 using System.Reflection;
 
-namespace WebDriverManager.Helpers
+namespace WebDriverPilot.Helpers
 {
     public enum DriverType
     {
