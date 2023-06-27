@@ -3,9 +3,6 @@
 on:
   push:
     branches: [ master ]
-    
-env:
-  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 jobs:
   publish:
@@ -38,4 +35,5 @@ jobs:
       - name: Push
         env:
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: dotnet nuget push out/*.nupkg --api-key $NUGET_KEY --source https://api.nuget.org/v3/index.json
