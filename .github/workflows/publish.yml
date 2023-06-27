@@ -36,8 +36,11 @@ jobs:
           source-url: https://api.nuget.org/v3/index.json
         env:
           NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
+        
       - name: Push
         env:
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
-        run: dotnet nuget push out/*.nupkg --api-key $NUGET_KEY --source https://api.nuget.org/v3/index.json
+        shell: pwsh
+        run: |
+        $nugetFile = Get-ChildItem -Path out -Filter *.nupkg | Select-Object -First 1
+        dotnet nuget push $nugetFile.FullName --api-key $NUGET_KEY --source https://api.nuget.org/v3/index.json
