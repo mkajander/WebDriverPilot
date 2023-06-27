@@ -33,9 +33,6 @@ namespace WebDriverManager.Finders
 
     public class EdgeWebDriverFinder : IWebDriverFinder
     {
-        const string VersionMatchPattern = @"^\d+\.";
-        //Adding others would obviously need some simple refactoring
-
         private readonly ILogger _logger;
 
         public EdgeWebDriverFinder(ILogger<EdgeWebDriverFinder> logger)
@@ -142,7 +139,7 @@ namespace WebDriverManager.Finders
 
         private async Task<string> DownloadDriver()
         {
-            var driverDownloader = new DriverDownloader(DriveFolder);
+            var driverDownloader = new DriverDownloader(driverFolder: DriveFolder,overwriteExistingDriver:true);
             return await driverDownloader.DownloadVersion(DriverType, EdgeVersion);
         }
     }
