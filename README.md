@@ -1,3 +1,4 @@
+[![Publish NuGet Package](https://github.com/mkajander/WebDriverManager/actions/workflows/publish.yml/badge.svg?branch=master)](https://github.com/mkajander/WebDriverManager/actions/workflows/publish.yml)  
 # WebDriverManager
 Library for automatically downloading EdgeWebdriver and ChromeWebdriver based on installed browser versions. A bit work in progress but does work for test cases.
 
