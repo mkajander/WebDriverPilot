@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverManager", "WebDriverManager\WebDriverManager.csproj", "{249CD2DE-EFBC-4426-AB75-F4C082A905C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriverManager.Tests", "WebDriverManager.Tests\WebDriverManager.Tests.csproj", "{554E2371-37F5-4C2A-B8D9-D65C0A946359}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{85DA2576-1A89-4334-B795-35E4F16183DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F7989F8E-E99C-4A4F-BC1E-15F0D626B4F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{249CD2DE-EFBC-4426-AB75-F4C082A905C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249CD2DE-EFBC-4426-AB75-F4C082A905C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249CD2DE-EFBC-4426-AB75-F4C082A905C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249CD2DE-EFBC-4426-AB75-F4C082A905C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554E2371-37F5-4C2A-B8D9-D65C0A946359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554E2371-37F5-4C2A-B8D9-D65C0A946359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554E2371-37F5-4C2A-B8D9-D65C0A946359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554E2371-37F5-4C2A-B8D9-D65C0A946359}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{249CD2DE-EFBC-4426-AB75-F4C082A905C4} = {85DA2576-1A89-4334-B795-35E4F16183DD}
+		{554E2371-37F5-4C2A-B8D9-D65C0A946359} = {F7989F8E-E99C-4A4F-BC1E-15F0D626B4F8}
+	EndGlobalSection
+EndGlobal
