@@ -26,6 +26,9 @@ jobs:
       - name: Pack
         run: dotnet pack --no-build --configuration Release --output out
 
+      - name: List out
+        run: dir out
+
       - name: Setup .NET for push
         uses: actions/setup-dotnet@v3
         with:
