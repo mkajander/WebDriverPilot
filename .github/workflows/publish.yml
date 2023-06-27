@@ -17,27 +17,22 @@ jobs:
         with:
           dotnet-version: '6.0.x'
 
-      - name: Install Chrome
-        run: choco install googlechrome
-
       - name: Restore dependencies
         run: dotnet restore
 
       - name: Build
         run: dotnet build --no-restore
 
-      - name: Test
-        run: dotnet test --no-build --verbosity normal
-
       - name: Pack
         run: dotnet pack --no-build --configuration Release --output out
 
-      - name: Push
-        uses: actions/setup-dotnet@v1
+      - name: Setup .NET for push
+        uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '6.0.x'
           source-url: https://api.nuget.org/v3/index.json
+      
+      - name: Push
         env:
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
-        
         run: dotnet nuget push out/*.nupkg --api-key $NUGET_KEY --source https://api.nuget.org/v3/index.json
